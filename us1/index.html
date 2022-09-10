@@ -2,6 +2,7 @@
 <html dir="ltr" lang="pt-BR"
   prefix="og: https://ogp.me/ns#" >
 <head>
+
   <meta charset="UTF-8">
       
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -380,13 +381,28 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         <div class="elementor-element elementor-element-ba5e415 elementor-widget elementor-widget-text-editor" data-id="ba5e415" data-element_type="widget" data-widget_type="text-editor.default">
         <div class="elementor-widget-container">
               <p><span style="color: #ff0000;"><strong><s>R$585</s></strong></span></p><p><strong>R$97</strong></p>           </div>
+              <!-- HOTMART - Upsell Widget -->
+<div id="box_hotmart"></div>
+<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+
+<script>
+opts = {
+key: 'USL-80037-225201-1d373f1fabb5949358d71bb89d0a5c3d',
+width: '650' ,
+height: '420'
+};
+Upsell.Widget.show(opts);
+</script>
+<!-- HOTMART - Upsell Widget [end] -->
+
         </div>
           </div>
     </div>
               </div>
     </section>
               </div>
-    
+
+
     <style id="skip-link-styles">
     .skip-link.screen-reader-text {
       border: 0;
@@ -456,6 +472,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     sibling.parentElement.insertBefore( skipLink, sibling );
   }() );
   </script>
+
+
+  
   </body>
 </html>
 
